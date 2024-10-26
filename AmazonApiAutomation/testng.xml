@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon API Automation Suite">
+  <test thread-count="5" name="API Test">
+    <classes>
+      <class name="com.amazon.api.CartCheckout"/>
+      <class name="com.amazon.api.SearchProduct"/>
+      <class name="com.amazon.api.OrderPayment"/>
+      <class name="com.amazon.api.AddToCart"/>
+      <class name="com.amazon.api.LoginTest"/>
+    </classes>
+  </test> <!-- API Test -->
+</suite> <!-- Amazon API Automation Suite -->
